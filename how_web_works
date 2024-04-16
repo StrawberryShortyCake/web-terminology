@@ -1,0 +1,32 @@
+Part One: Solidify Terminology»
+
+What is HTTP?
+    Hypertext transfer protocol. The protocol with which computers communicate with one another.
+
+What is a URL?
+    Uniform Resource Locator. The unique mnemonic address that is assigned to a computer, so that other computers can find and communicate with it. It is the version masking the IP address for ease of read.
+
+What is DNS?
+    Domain Name System. Massive super computers that are distributed globally, and they serve as like a phone book for our computers to look up IP addresses, if our local computer, ISP, router cache does not have the reference.
+
+What is a query string?
+    The message that is appended to URL, as our browser request, which contains the input element and the keywords for what information we want from the server.
+
+What are two HTTP verbs and how are they different?
+    GET: it seeks to retrieve information only, without side effect(s); arguments are sent in a query string.
+    POST: it sends data to the server and has side effect(s); arguments are sent in the request message.
+
+What is an HTTP request?
+    The message that the browser sends to the server to retrieve or update data.
+
+What is an HTTP response?
+    The message that the server sends back to the browser upon a request.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    This is the part of the request/response messages where meta-data lives. For exmple, it may contain browser, OS, hostname, data, language, cookies, cached info, etc.
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+    1) convert mnemonic to IP
+    2) find and connect to the IP
+    3) connect through a specific port (default: 80)
+    4) using HTTP protocol to request something from the server as a query string
